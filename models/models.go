@@ -47,8 +47,16 @@ type InnerPage struct {
 	Extlink             []map[string]string      `json:"extlinks"`
 	Link                []map[string]interface{} `json:"links"`
 	Category            []map[string]interface{} `json:"categories"`
+	Thumbnail           Thumbnail                `json:"thumbnail"`
+	PageImage           string                   `json:"pageimage"`
 	ImageInfo           []map[string]string      `json:"imageinfo"`
 	Coordinate          []map[string]interface{} `json:"coordinates"`
+}
+
+type Thumbnail struct {
+	Source string `json:"source"`
+	Width  int    `json:"width"`
+	Height int    `json:"height"`
 }
 
 type InnerGeoSearch struct {
@@ -78,7 +86,7 @@ type RequestQuery struct {
 }
 
 /*
-	The result of calling the Wikipedia API
+The result of calling the Wikipedia API
 */
 type RequestResult struct {
 	Error         RequestError           `json:"error"`

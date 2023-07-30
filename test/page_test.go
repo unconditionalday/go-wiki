@@ -2,9 +2,9 @@ package test
 
 import (
 	"errors"
-	"github.com/trietmn/go-wiki"
-	"github.com/trietmn/go-wiki/page"
-	"github.com/trietmn/go-wiki/utils"
+	"github.com/unconditionalday/go-wiki"
+	"github.com/unconditionalday/go-wiki/page"
+	"github.com/unconditionalday/go-wiki/utils"
 	"strconv"
 	"testing"
 )

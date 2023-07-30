@@ -1,6 +1,6 @@
-module github.com/trietmn/go-wiki
+module github.com/unconditionalday/go-wiki
 
-go 1.18
+go 1.20
 
 require (
 	github.com/anaskhan96/soup v1.2.5 // indirect

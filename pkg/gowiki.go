@@ -1,4 +1,4 @@
-package gowiki
+package pkg
 
 import (
 	"errors"
@@ -6,9 +6,9 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/trietmn/go-wiki/cache"
-	"github.com/trietmn/go-wiki/page"
-	"github.com/trietmn/go-wiki/utils"
+	"github.com/unconditionalday/go-wiki/cache"
+	"github.com/unconditionalday/go-wiki/page"
+	"github.com/unconditionalday/go-wiki/utils"
 )
 
 /*

@@ -2,9 +2,9 @@
 
 <img align="right" width="159px" src="https://upload.wikimedia.org/wikipedia/en/8/80/Wikipedia-logo-v2.svg">
 
-[![go report card](https://goreportcard.com/badge/github.com/trietmn/go-wiki "go report card")](https://goreportcard.com/report/github.com/trietmn/go-wiki)
+[![go report card](https://goreportcard.com/badge/github.com/unconditionalday/go-wiki "go report card")](https://goreportcard.com/report/github.com/unconditionalday/go-wiki)
 [![MIT license](https://img.shields.io/badge/license-MIT-brightgreen.svg)](https://opensource.org/licenses/MIT)
-[![GoDoc](https://godoc.org/github.com/trietmn/go-wiki?status.svg)](https://pkg.go.dev/github.com/trietmn/go-wiki)
+[![GoDoc](https://godoc.org/github.com/unconditionalday/go-wiki?status.svg)](https://pkg.go.dev/github.com/unconditionalday/go-wiki)
 
 This is a Golang Wikipedia API wrapper - The Golang module that makes it easy to access and parse data from Wikipedia. You can use this module to crawl data for your data warehouse or use it for your "Know-it-all" AI Chatbot.
 
@@ -32,16 +32,16 @@ This is a Golang Wikipedia API wrapper - The Golang module that makes it easy to
 To install Go-Wiki package, you need to install Go and set your Go workspace first.
 1. You first need [Go](https://golang.org/) installed, then you can use the below Go command to install Go-wiki.
 ```sh
-go get -u github.com/trietmn/go-wiki
+go get -u github.com/unconditionalday/go-wiki
 ```
 2. Import it in your code.
 ```go
-import "github.com/trietmn/go-wiki"
+import "github.com/unconditionalday/go-wiki"
 ```
 
 ## Documentation
 
-You can read the documentation at: <https://pkg.go.dev/github.com/trietmn/go-wiki> 
+You can read the documentation at: <https://pkg.go.dev/github.com/unconditionalday/go-wiki> 
 
 I will update a full tutorial article on some popular blog as soon as possiple.
 
@@ -57,7 +57,7 @@ package main
 
 import (
     "fmt"
-    "github.com/trietmn/go-wiki"
+    "github.com/unconditionalday/go-wiki"
 )
 
 func main() {
@@ -90,7 +90,7 @@ $ go run example.go
 
 ## Functions Examples
 
-Note: The functions below are functions that you would usually use. Read the [document](https://pkg.go.dev/github.com/trietmn/go-wiki) to see all the functions.
+Note: The functions below are functions that you would usually use. Read the [document](https://pkg.go.dev/github.com/unconditionalday/go-wiki) to see all the functions.
 
 ### 1. Search
 ```go

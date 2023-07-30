@@ -1,8 +1,8 @@
 package test
 
 import (
-	"github.com/trietmn/go-wiki"
-	"github.com/trietmn/go-wiki/utils"
+	"github.com/unconditionalday/go-wiki"
+	"github.com/unconditionalday/go-wiki/utils"
 	"testing"
 )
 
